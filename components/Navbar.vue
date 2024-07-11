@@ -7,8 +7,8 @@
       </div>
   
       <div class="flex gap-3">
-        <UButton variant="ghost">Sign in</UButton>
-        <UButton variant="solid">Sign Up</UButton>
+        <UButton class="hidden" variant="ghost">Sign in</UButton>
+        <UButton variant="solid" to="/register">Sign Up</UButton>
         <ToggleColorMode />
       </div>
     </div>
@@ -20,7 +20,7 @@
   const menus = [
     {label: 'Home', to: '/'},
     {label: 'Videos', to: '/'},
-    {label: 'Dashboard', to: '/'},
+    {label: 'Dashboard', to: '/dashboard'},
   ]
 </script>
 

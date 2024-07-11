@@ -1,10 +1,10 @@
 <template>
-  <div class="flex h-[calc(100vh-50px)]">
-    <p class="text-3xl">halo</p>
+  <div class="h-[calc(100vh-50px)]">
+    <p>Dashboard</p>
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
   definePageMeta({
     layout: 'page'
   })
